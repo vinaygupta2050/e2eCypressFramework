@@ -94,7 +94,7 @@ npm run merge
 ```
 npm run report
 ```
-Report is generated in [report.html](https://github.com/vinaygupta2050/e2eCypressFramework/report.html)
+Report is generated in [report.html](https://github.com/vinaygupta2050/e2eCypressFramework/blob/master/report.html)
 ## Author
 
 * **Vinaykumar Gupta** - [LinkedIn](https://in.linkedin.com/in/vinaygupta2050)
