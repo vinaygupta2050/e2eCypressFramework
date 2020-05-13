@@ -40,10 +40,6 @@ The library which plays a major role in building this framework is Cypress. In C
 
 [Integration](https://github.com/vinaygupta2050/e2eCypressFramework/tree/master/cypress/integration): In this folder we write our e2e test.
 
-[Screenshots](https://github.com/vinaygupta2050/e2eCypressFramework/cypress/screenshots): In this folder all the failure screen shot are placed.
-
-[Video](https://github.com/vinaygupta2050/e2eCypressFramework/cypress/videos): In this folder recording of test is placed.
-
 ## Configuration
 
 * All the Environment variable are stored in [cypress.json](https://github.com/vinaygupta2050/e2eCypressFramework/cypress.json) file
