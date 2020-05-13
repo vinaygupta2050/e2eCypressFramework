@@ -1,0 +1,14 @@
+{
+  "video": true,
+  "screenshotsFolder": "cypress/screenshots",
+  "baseUrl": "http://localhost:3000",
+  "env": {
+    "userName": "spree@example.com",
+    "password": "spree123"
+  },
+  "reporter": "cypress-multi-reporters",
+  "reporterOptions": {
+    "configFile": "reporterOptions.json"
+
+  }
+}

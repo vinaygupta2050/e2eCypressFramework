@@ -1,0 +1,27 @@
+{
+    "devDependencies": {
+        "cypress": "^4.5.0",
+        "cypress-cucumber-preprocessor": "2.3.1",
+        "cypress-file-upload": "^4.0.6",
+        "cypress-xpath": "^1.4.0",
+        "npx": "10.2.2",
+        "mocha": "^7.1.2",
+        "cypress-multi-reporters": "^1.4.0",
+        "mochawesome": "^6.1.1",
+        "mochawesome-merge": "^4.0.3",
+        "mochawesome-report-generator": "^5.1.0"
+    },
+    "cypress-cucumber-preprocessor": {
+        "nonGlobalStepDefinitions": true
+    },
+    "scripts": {
+        "emptyFolder": "node emptyReportDir.js",
+        "merge": "npx mochawesome-merge cypress/reports/mocha/*.json > cypress/mochareports/report.json\n",
+        "report": "marge cypress/mochareports/report.json --reportDir ./ --inline",
+        "open": "CYPRESS_baseUrl=http://localhost:3000/login npx cypress open",
+        "chrome": "CYPRESS_baseUrl=http://localhost:3000/login npx cypress run --spec /Users/in-vinaykumar.gupta/Downloads/Projects/e2eCypressFramework/cypress/integration/BasicTest/spreeLogin.spec.js --browser chrome",
+        "electron": "CYPRESS_baseUrl=http://localhost:3000/login npx cypress run --spec /Users/in-vinaykumar.gupta/Downloads/Projects/e2eCypressFramework/cypress/integration/BasicTest/spreeLogin.spec.js --browser electron",
+        "firefox": "CYPRESS_baseUrl=http://localhost:3000/login npx cypress run --spec /Users/in-vinaykumar.gupta/Downloads/Projects/e2eCypressFramework/cypress/integration/BasicTest/spreeLogin.spec.js --browser firefox",
+        "all": "npx cypress run --spec /Users/in-vinaykumar.gupta/Downloads/Projects/e2eCypressFramework/cypress/integration/examples/*.js --browser chrome"
+    }
+}

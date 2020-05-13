@@ -1,0 +1,7 @@
+version: "2"
+services:
+  spree:
+    image: spreecommerce/spree
+    container_name: spree1
+    ports:
+      - "3000:3000"
