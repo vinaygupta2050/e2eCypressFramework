@@ -45,6 +45,13 @@ The library which plays a major role in building this framework is Cypress. In C
 * All the Environment variable are stored in [cypress.json](https://github.com/vinaygupta2050/e2eCypressFramework/cypress.json) file
 * Dependency and Custom scripts are maintained in [package.json](https://github.com/vinaygupta2050/e2eCypressFramework/package.json) file
 
+## Running Demo Application
+
+* Use below command to install all the required dependencies.
+```
+npm install --save-dev
+```
+
 ### Target Environments
 * All the Environment variable are stored in [cypress.json](https://github.com/vinaygupta2050/e2eCypressFramework/cypress.json) file
 ```
